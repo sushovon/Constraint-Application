@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
     }
     fun addition(){
         Toast.makeText(this@MainActivity,"test branch",Toast.LENGTH_LONG).show()
+        Log.d("TAG","test from AI")
     }
 }
