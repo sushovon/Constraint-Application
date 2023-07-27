@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     fun sum(){
         val a=4
         val b=8
-        val sum=a+b
+        val sum=a/0
         Log.d("TAG", "sum: ${sum}")
     }
 }
